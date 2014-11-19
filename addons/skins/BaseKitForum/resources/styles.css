@@ -9,7 +9,7 @@ here if necessary.
 */
 
 /* Global */
-body {font-size:14px; font-weight:300; margin:0; overflow-y:scroll; background:#f4f4f4; color:#666}
+body {font-size:14px; font-weight:300; margin:0; overflow-y:scroll; background:#ffffff; color:#666}
 body, input, textarea, select {font-family:open sans,lucida grande,lucida sans unicode,helvetica,arial,sans-serif}
 input, textarea, select {font-size:100%}
 strong {font-weight:600}
@@ -124,3 +124,59 @@ a.button.big {padding:10px; height:auto; line-height:1em}
 .button.submit:hover {border-color:#000; color:#fff}
 
 .buttonGroup .button {margin-right:-3px}
+
+/* BaseKit Forum Additions */
+
+	/* Header */
+	body {
+		font-family: Helvetica, Arial, sans-serif;
+		color: #555;
+		font-size: 14px;
+	}
+
+	#hdr {
+		background: #222;
+		border-bottom-width: 0;
+	}
+
+	#hdr h1 {
+		padding: 16px 0 12px;
+	}
+
+	#hdr #hdr-inner > h1 a,
+	#hdr #hdr-inner > ul > li > a {
+		color: #fff;
+	}
+
+	.button,
+	a.button,
+	.button:hover,
+	a.button:hover,
+	.button:active,
+	a.button:active {
+		background: #4182c3;
+		color: #fff;
+		border: 1px solid #4182c3;
+	}
+
+	.button:hover,
+	a.button:hover {
+		background: #3269a0;
+	}
+
+	.button:active,
+	a.button:active {
+		background: #2c5d8d;
+	}
+
+	.button i,
+	a.button i {
+		color: #fff;
+	}
+
+	.active .button,
+	.active a.button,
+	.active .button i,
+	.active a.button i {
+		color: #4182c3;
+	}
