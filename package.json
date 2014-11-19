@@ -1,0 +1,19 @@
+{
+  "name": "knowledge.basekit.com",
+  "version": "0.0.1",
+  "description": "Official forum for helpful community discussion of the BaseKit platform",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basekit/knowledge.basekit.com.git"
+  },
+  "author": "David Darnes <david.darnes@basekit.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/basekit/knowledge.basekit.com/issues"
+  },
+  "homepage": "https://github.com/basekit/knowledge.basekit.com"
+}
