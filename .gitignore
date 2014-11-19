@@ -27,6 +27,10 @@ addons/skins/*
 # BaseKit
 !addons/skins/BaseKitForum
 
+# BaseKit Packages
+bower_components/*
+node_modules/*
+
 # Compiled source
 *.com
 *.class
