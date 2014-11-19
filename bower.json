@@ -1,0 +1,24 @@
+{
+  "name": "knowledge.basekit.com",
+  "version": "0.0.1",
+  "homepage": "http://knowledge.basekit.com",
+  "authors": [
+    "David Darnes <david.darnes@basekit.com>"
+  ],
+  "description": "Official forum for helpful community discussion of the BaseKit platform",
+  "main": "index.php",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Answers": "https://github.com/esotalk/Answers.git",
+    "Gravatar": "https://github.com/esotalk/Gravatar.git",
+    "Share": "https://github.com/tvb/Share"
+  }
+}
