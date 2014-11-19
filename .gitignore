@@ -24,6 +24,9 @@ addons/skins/*
 !addons/skins/Default
 !addons/skins/index.html
 
+# BaseKit
+!addons/skins/BaseKitForum
+
 # Compiled source
 *.com
 *.class
@@ -31,7 +34,7 @@ addons/skins/*
 *.exe
 *.o
 *.so
- 
+
 # Packages
 *.7z
 *.dmg
@@ -41,12 +44,12 @@ addons/skins/*
 *.rar
 *.tar
 *.zip
- 
+
 # Logs and databases
 *.log
 *.sql
 *.sqlite
- 
+
 # OS generated files
 .DS_Store
 .DS_Store?
