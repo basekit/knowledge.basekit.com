@@ -38,6 +38,8 @@ public function handler_init($sender)
 	$sender->addCSSFile("core/skin/font-awesome.css", true);
 	$sender->addCSSFile($this->resource("styles.css"), true);
 
+	$sender->addToMenu("user", "Links", "<a href='http://developers.basekit.com'>Developers Hub</a>");
+
 	// If we're viewing from a mobile browser, add the mobile CSS and change the master view.
 	if ($isMobile = isMobileBrowser()) {
 		$sender->addCSSFile($this->resource("mobile.css"), true);
