@@ -140,13 +140,13 @@ a.button.big {padding:10px; height:auto; line-height:1em}
 	}
 
 	#hdr h1 {
-		padding: 14px 0 12px;
+		padding: 12px 0 12px;
 	}
 
 	#hdr #hdr-inner > h1 a,
 	#hdr #hdr-inner > ul > li > a,
 	#hdr-inner > a {
-		color: #fff;
+		color: #fff !important;
 	}
 
 	.button,
