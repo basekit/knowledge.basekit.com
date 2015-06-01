@@ -144,7 +144,8 @@ a.button.big {padding:10px; height:auto; line-height:1em}
 	}
 
 	#hdr #hdr-inner > h1 a,
-	#hdr #hdr-inner > ul > li > a {
+	#hdr #hdr-inner > ul > li > a,
+	#hdr-inner > a {
 		color: #fff;
 	}
 
