@@ -90,7 +90,7 @@ $config["esoTalk.cookie.expire"] = 2592000; // 30 days
 
 // URL settings.
 $config["esoTalk.urls.friendly"] = false; // ex. example.com/index.php/conversation/1
-$config["esoTalk.urls.rewrite"] = false; // ex. example.com/conversation/1 (requires mod_rewrite and a .htaccess file!)
+$config["esoTalk.urls.rewrite"] = true; // ex. example.com/conversation/1 (requires mod_rewrite and a .htaccess file!)
 
 // Some features that can be disabled.
 $config["esoTalk.enableEmailNotifications"] = true;
