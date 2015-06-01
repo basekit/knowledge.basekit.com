@@ -71,7 +71,6 @@ public function handler_init($sender)
 		<meta name='msapplication-TileColor' content='#ffffff'>
 		<meta name='msapplication-TileImage' content='".getWebPath($this->resource("/favicons/mstile-144x144.png"))."'>
 	");
-	}
 }
 
 
