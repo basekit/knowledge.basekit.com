@@ -30,6 +30,12 @@ $form = $data["form"];
 
 <li><label><?php echo T("Confirm password"); ?></label> <?php echo $form->input("confirm", "password"); ?></li>
 
+<li class="etphp1"><label><?php echo T("Zip Code"); ?></label> <?php echo $form->input("zipcode", "input"); ?></li>
+
+<li class="etphp2"><label><?php echo T("Phone"); ?></label> <?php echo $form->input("phone", "input", array("value" => ET::$session->get("securityHash"))); ?></li>
+
+<li class="etphp3"><label><?php echo T("Homepage"); ?></label> <?php echo $form->input("homepage", "input"); ?></li>
+
 <?php if(C('plugin.reCAPTCHA.private') && C('plugin.reCAPTCHA.public')): ?>
     <li>
         <label><?php echo T("Are you human?"); ?></label>
